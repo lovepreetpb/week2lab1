@@ -1,0 +1,121 @@
+/* Lovepreet Singh */
+/* 200597146 */
+/** margin and padding of body, h1, h2, h3, p, li **/
+body, h1, h2, h3, p, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* now our body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url("../img/dominick.avif");
+    background-size: cover;
+
+}
+
+/* header */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+/** image which is in header **/
+header a img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 120px;
+    height: auto;
+}
+
+/**links**/
+nav menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* masthead */
+.lesson-masthead {
+    background-color: #daa520;
+    padding: 40px;
+    color: #333;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.lesson-masthead h1 {
+    font-size: 5em;
+}
+
+/*main*/
+.main {
+    padding: 20px;
+}
+
+/*paragraph of main*/
+main p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/* now our form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+}
+
+form h3 {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* checkboxes and radios*/
+form input[type="radio"],
+form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/*submit button*/
+form input[type="submit"] {
+    background-color: #ffa500;
+    color: #0e0e0e;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+/* footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,139 @@
+<!-- Lovepreet Singh -->
+<!-- 200597146 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This week we are looking at semantic elements">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Week 4 | Assignment | Pizza Order Form</title>
+    <!-- add our CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<!-- header -->
+    <header>
+        <!-- image container of header -->
+        <div>
+            <a href="assignmenttwo.html"><img src="./img/pizza.png" alt="pizza"></a>
+        </div>
+        <!-- link container in header -->
+        <nav>
+            <menu>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Locations</a></li>
+            </menu>
+        </nav>
+    </header>
+    <!-- masthead -->
+    <section class="lesson-masthead">
+        <h1>Welcome to Dominick Pizza</h1>
+    </section>
+<!-- main -->
+    <main>
+        <p>Please fill the form below to order your pizza-</p>
+
+        <!-- form -->
+        <form action="/pizza.php">
+            <h3>Choose quantity of pizza:</h3>
+            <!-- selects -->
+    <select id="quantity">
+        <option id="1">1</option>
+        <option id="2">2</option>
+        <option id="3">3</option>
+        <option id="4">4</option>
+        <option id="5">5</option>
+        <option id="6">6</option>
+        <option id="7">7</option>
+        <option id="8">8</option>
+        <option id="9">9</option>
+        <option id="10">10</option>
+    </select>
+    <p></p>
+    <h3>Select size of pizza:</h3>
+            <!-- radios -->
+    <label for="101">
+    <input type="radio" value="small" name="size" id="101">Small
+    </label>
+    <label for="102">
+    <input type="radio" value="medium" name="size" id="102">Medium
+    </label>
+    <label for="103">
+    <input type="radio" value="large" name="size" id="103">Large
+    </label>
+
+    <h3>Choose your toppings:</h3>
+            <!-- checkboxes -->
+    <label for="104">
+    <input type="checkbox" value="pep" name="toppings" id="104"> Pepperoni
+    </label>
+    <p></p>
+    <label for="105">
+    <input type="checkbox" value="Paneer" name="toppings" id="105">Paneer
+    </label>
+    <p></p>
+    <label for="106">
+    <input type="checkbox" value="capsicum" name="toppings" id="106">capsicum
+    </label>
+    <p></p>
+    <label for="107">
+    <input type="checkbox" value="onions" name="toppings" id="107">onions
+    </label>
+    <p></p>
+    <label for="108">
+    <input type="checkbox" value="olives" name="toppings" id="108">olives
+    </label>
+    <p></p>
+    <label for="109">
+    <input type="checkbox" value="chicken" name="toppings" id="109">chicken
+    </label>
+    <p></p>
+
+    <h3>Order Type:</h3>
+            <!-- radios -->
+    <label for="110">
+        <input type="radio" value="Pickup" name="ordertype" id="110">Pickup
+    </label>
+    <p></p>
+    <label for="111">
+        <input type="radio" value="delivery" name="ordertype" id="111">Delivery
+    </label>
+    <p></p>
+    <label for="112">
+        <input type="radio" value="dine_in" name="ordertype" id="112">Dine in
+    </label>
+    <p></p>
+
+    <h3>Please enter address (for delivery only):</h3>
+            <!-- text area where we can write anything -->
+    <textarea name="address" id="113" placeholder="Please enter your address"></textarea>
+    <p></p>
+
+    Type your Email:
+            <!-- only for emails -->
+    <label for="114">
+    <input type="email" name="email" id="114" required>
+    </label><p></p>
+            <!-- for name -->
+    <label for="115">
+    <input type="text" id="115" placeholder="Full Name" required>
+    </label>
+            <!-- this is submit button -->
+    <label for="116">
+        <input type="submit" value="submit" id="116">
+    </label>
+</form>
+</main>
+    <!-- footer -->
+<footer>
+    <!-- copyright of pizza shop -->
+    <!-- so I added this in footer -->
+    <p><b>We Serve Best Food</b></p>
+    <pre>
+    </pre>
+    <p>©2024 Ministry of Food's IP Holder LLC. Ministry of Food's®, Ministry of Food's Pizza® and the modular logo are registered trademarks of Ministry of Food's® IP Holder LLC.</p>
+</footer>
+</body>
+</html>
