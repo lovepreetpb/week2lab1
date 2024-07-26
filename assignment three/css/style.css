@@ -1,0 +1,162 @@
+/* Global styling */
+/* margins and paddings */
+body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/** now our layout **/
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;/* color of background under poster */
+    color: #333;
+    padding: 20px;
+    background-image: url('../img/warning.jpeg');/* setting path for background poster image */
+    background-size: 100% auto; /* making image wide so that it fits the screen */
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 305vh; /* setting height of viewport as same as height of poster */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* aligning items to the top */
+}
+
+/** styling main container **/
+main {
+    width: 100%; /* full width of the viewport */
+    max-width: 100%; /* setting maximum width so it do not exceed the viewport width */
+    text-align: center;
+    background-color: transparent; /* no background color for main so it not overlaps poster image */
+    padding: 20px;
+}
+
+h6{
+    font-family: "Anton", sans-serif;/*implementing font*/
+}
+
+h2{
+    font-family: "Abril Fatface", sans-serif;/*implementing font*/
+}
+
+
+/** styling headers and text **/
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    margin-top: 5px;
+}
+
+h1{
+    font-family: "Cinzel", sans-serif;/*implementing font*/
+}
+
+h3,h4{
+    font-family: "Oswald", sans-serif;/*implementing font*/
+    color: #57543D;
+}
+
+h1 {
+    font-size: 17px;/* font size */
+    font-weight: bold;
+    color: #FFFFE0;/* colour */
+}
+
+h2 {
+    text-align: left;/* setting at left side */
+    font-size: 75px;/* font size */
+    font-weight: bold;
+    color: #FFFFE0;/* colour */
+}
+
+h3 {
+    font-size: 18px;/* font size */
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 24px;/* font size */
+    font-weight: bold;
+}
+
+h5 {
+    text-align: left;/* setting at left side */
+    font-size: 30px;/* font size */
+    font-weight: normal;
+}
+
+h6 {
+    text-align: left;/* setting at left side */
+    font-size: 50px;/* font size */
+    font-weight: normal;
+    color: #57543D;/* colour */
+}
+
+/** styling images **/
+img {
+    max-width: 110%;/** setting maximum width of logo images so that it do not exceeds that limit **/
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/* styling links */
+a {
+    text-decoration: none;
+    color: #fff; /* White link color */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* other styling */
+
+/* image in topmost left corner in small size */
+div > a:first-child {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+}
+
+/* text on top in centre in very small size */
+div {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+div > h2:nth-of-type(1), div > h1, div > h2:nth-of-type(2), div > a > img {
+    font-size: 14px; /* font size */
+}
+
+/* image in topmost left corner in small size */
+div > a:last-child {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+}
+
+/* text in bigger font after some lines */
+main > h5 {
+    font-size: 20px;
+}
+
+/* text in small size */
+main > h2, main > h3, main > h4, main > h5:last-child {
+    font-size: 14px; /* Adjust font size as needed */
+}
+
+/* text in small size in center */
+main > h2, main > h3, main > h2 + h3, main > h3 + h4, main > h4 + h5, main > h5 + h2 {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* adjusting topmost text bit downwards */
+div > h2:nth-of-type(2) {
+    margin-top: 40px;
+}
