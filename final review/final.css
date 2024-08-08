@@ -1,0 +1,220 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #125784;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    max-height: 100px; /* Adjust size as needed */
+    max-width: 100px;
+}
+
+nav {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-left: 1300px;
+
+}
+
+.search-container {
+    margin-left: 1000px;
+}
+
+.search-container form {
+    display: flex;
+}
+
+.search-container input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    width: 200px;
+}
+
+.search-container button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #777;
+}
+
+
+
+
+
+div h1{
+    background-image: url("img/img1.jpg");
+    text-align: center;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    background-size: cover;
+    color: #fff;
+    font-size: 50px;
+}
+
+main section{
+    display: flex;
+}
+main section .title{
+    padding-top: 160px;
+    padding-bottom: 160px;
+background-color: #f57f17;
+width: 70%;
+    color: #fff;
+}
+
+main section .titleImg{
+
+    width: 30%;
+}
+
+.img2{
+
+    max-width: 800px;
+    max-height: 470px;
+}
+
+.img3{
+
+    max-width: 400%;
+}
+
+.img4{
+
+    max-width: 400%;
+}
+
+.img5{
+
+    max-width: 400%;
+}
+
+.formsection{
+    background-color: #5e35b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between form elements */
+    align-items: center;
+
+
+
+}
+
+.form-group {
+    width: 100%; /* Ensure full width for the form groups */
+}
+
+.form-group label {
+    display: block; /* Ensure labels are block elements */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group textarea,
+.form-group button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    width: 100%; /* Ensure elements are full width of their container */
+    box-sizing: border-box; /* Includes padding and border in the element's width and height */
+}
+
+.form-group input[type="radio"] {
+    margin-right: 5px;
+    color: #fff;
+}
+
+.radio-group label {
+    display: block; /* Ensure each radio button is on a new line */
+    margin-bottom: 10px; /* Adds space between radio buttons */
+}
+
+.form-group textarea {
+    resize: vertical; /* Allows vertical resizing */
+}
+
+.form-group button {
+    background-color: #ffffff; /* Button background color */
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border: none; /* Remove default border */
+}
+
+.form-group button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.footerlogo{
+    max-height: 100px; /* Adjust size as needed */
+    max-width: 100px;
+}
+
+.footer1{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+
+
+
